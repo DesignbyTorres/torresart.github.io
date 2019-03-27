@@ -238,33 +238,13 @@ h1
 
 @media only screen and (max-width: 768px)
 {
-	.lrgphoto {
-		background-image: url(header3also.jpg);
-		
-		
-	}
 	
-	
-	.navbar {
-		height: auto;
-	}
-	
-	.navitem {
-		display: block;
-	}
-	
-	.pad {
-		display: none;
-	}
 	
 }
 
 
 @media only screen and (max-width: 600px)
 {
-	.lrgphoto {
-		background-image: url(header1_581also.jpg);
-		
-		
-	}
+	
+	
 }
