@@ -3,6 +3,41 @@
 	padding: 0;
 }
 
+/*this is the back to top button */
+#myBtn {
+  display: none;
+    background-image: url(images/eye3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  z-index: 1;
+  width: 5%;
+  height: 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+#myBtn:hover {
+ 
+    
+}
+
+.eye
+{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*this is the back to top button */
+
 
 h1
 {
@@ -62,33 +97,37 @@ h1
 
 
 
-
+/*TOP MENU THAT IS VISIBLE */
 .button 
 {
     
-    
+    box-sizing: border-box;
     display: block;
-    background-color: darkgray;
+    background-color: black;
+    color: white;
     border: none;
     width: 100%;
     height: 40px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin: auto;
+    padding: 10px;
+    
     
 }
 
 
 
-#myDIV {
+#menulinks {
     
   text-align: center;
-  background-color: lightgray;
+  
     max-width: 100%;
     margin: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
    
 }
+
 
 
 .links
@@ -96,12 +135,12 @@ h1
     
     box-sizing: border-box;
     display: block;
+    background-color: white;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.2);
     width: 100%;
     height: 40px;
-    
-    
-    
-    
+    padding: 10px ;
+    margin: 5px auto;
     
 }
 
@@ -113,7 +152,7 @@ h1
     
 }
 
-
+/*TOP MENU THAT IS VISIBLE */
 
 
 
@@ -133,8 +172,7 @@ h1
     width: 100%;
     height: 50px;
     text-align: center;
-    color: black;
-    padding: 15px 0;
+    padding: 20px 0;
 }
 
 
@@ -155,11 +193,12 @@ h1
 {
     display: block;
     box-sizing: border-box;
-    background-color: darkcyan;
+    background-color: black;
     width: 80%;
     height: auto;
     margin: auto;
     padding: 10px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
 }
 
@@ -187,11 +226,11 @@ h1
 .image
 {
     
-   
+    background-color: white;
     max-width: 27%;
     
     margin: 8px;
-    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
 }
 
@@ -201,6 +240,14 @@ h1
 
 
 
+
+
+.update
+{
+    
+    font-size: .6em;
+    
+}
 
 
 
@@ -210,17 +257,72 @@ h1
 .footer
 {
     
-    background-color: darkgray;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: black;
     width: 100%;
     height: 150px;
+    text-align: center;
+    
+    
+}
+
+
+.footcontain
+{
+    
+    display: inline-block;;
+    box-sizing: border-box;
+    background-color: rgba(68,99,99,0.6);
+    height: 112.5px;
+    width: 93%;
+    margin: 18.75px auto;
+    text-align: center;
+   
+    
+}
+
+
+
+.footlinks
+{
+    
+    display: inline-block;
+    background-color: aliceblue;
+    height: 80px;
+    min-width: 10%;
+    max-width: 21%;
+    margin: 16.25px 1%;
+    
+    
+}
+
+
+.footline
+{
+    display: inline-block;
+    background-color: darkgoldenrod;
+    height: 80px;
+    width: 2px;
+    border-radius: 10px;
+    margin: 16.25px 1%;
     
     
 }
 
 
 
-
-
+.footextra
+{
+    
+    display: inline-block;
+    background-color: gray;
+    height: 80px;
+    width: 21%;
+    margin: 16.25px 1%;
+    
+    
+}
 
 
 
@@ -239,6 +341,7 @@ h1
 @media only screen and (max-width: 768px)
 {
 	
+    
 	
 }
 
@@ -246,5 +349,6 @@ h1
 @media only screen and (max-width: 600px)
 {
 	
-	
+    
+    
 }
