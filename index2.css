@@ -10,7 +10,7 @@
 .full
 {
     box-sizing: border-box;
-    background-color: aliceblue;
+    
     max-height: 500px;
     
     padding: 20% 0;
@@ -19,7 +19,7 @@
 
 .all
 {
-    background-color: aquamarine;
+    
     display: block;
     margin: auto;
     width: 50%;
